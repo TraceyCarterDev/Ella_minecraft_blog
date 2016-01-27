@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     resources :comments
   end
 
-  root 'welcome#index'
+  root 'static_pages#home'
 
 end 
   # Example of regular route:
